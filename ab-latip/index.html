@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School - главная</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <img src="assets/images/logo.svg" alt="logo" class="header__logo" />
+      <div class="header__menu-icon">
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="header__nav">
+        <a href="/" class="header__link header__link_active">Главная</a>
+        <a href="dop.html" class="header__link">Дополнительное образование</a>
+        <a href="#news" class="header__link">Новости</a>
+        <a href="#course" class="header__link">Курсы</a>
+        <a href="#feedback" class="header__link">Обратная связь</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="home">
+          <div class="home__content">
+            <div class="home__tags">
+              <div class="home__tag">Курсы</div>
+              <div class="home__tag">Уроки</div>
+              <div class="home__tag">Прямые трансляции</div>
+            </div>
+
+            <h1 class="home__title">
+              Школьный портал для проведения онлайн уроков
+            </h1>
+
+            <p class="home__subtitle">
+              Проведение онлайн занаятий по основной образовательной программе
+            </p>
+          </div>
+
+          <img
+            src="assets/images/home/book-decor-blue.svg"
+            alt="book"
+            class="home__image"
+          />
+        </section>
+
+        <section class="cards" id="course">
+            <h2 class="section-title">Лучшие курсы</h2>
+            <div class="cards__wrapper">
+                <a href="#" class="cards__card">
+                    <div class="cards__bg cards__bg-contain" style="background-image: url(assets/images/courses/mobile.png);"></div>
+                    <h3 class="cards__title">Разработка мобильных приложений</h3>
+                </a>
+                <a href="#" class="cards__card">
+                    <div class="cards__bg cards__bg-contain" style="background-image: url(assets/images/courses/db.png);"></div>
+                    <h3 class="cards__title">Администрирование баз данных</h3>
+                </a>
+                <a href="#" class="cards__card">
+                    <div class="cards__bg cards__bg-contain" style="background-image: url(assets/images/courses/lamp.png);"></div>
+                    <h3 class="cards__title">Электроника</h3>
+                </a>
+                <a href="#" class="cards__card">
+                    <div class="cards__bg cards__bg-contain" style="background-image: url(assets/images/courses/Pizza_perspective_matte.png);"></div>
+                    <h3 class="cards__title">Кулинария</h3>
+                </a>
+            </div>
+            <a href="course.html" class="btn">Показать все курсы</a>
+        </section>
+
+        <section class="cards" id="news">
+            <h2 class="section-title">Новости</h2>
+            <div class="cards__wrapper">
+                <a href="#" class="cards__card">
+                    <div class="cards__bg" style="background-image: url(assets/images/news/macbook.jpg);"></div>
+                    <h3 class="cards__title">Поступление новых MacBook Pro</h3>
+                </a>
+                <a href="#" class="cards__card">
+                    <div class="cards__bg" style="background-image: url(assets/images/news/macbook-3.jpg);"></div>
+                    <h3 class="cards__title">Открытие нового курса по WEB - разработке</h3>
+                </a>
+                <a href="#" class="cards__card">
+                    <div class="cards__bg" style="background-image: url(assets/images/news/pc.jpg);"></div>
+                    <h3 class="cards__title">Открытие нового курса по Photoshop</h3>
+                </a>
+                <a href="#" class="cards__card">
+                    <div class="cards__bg" style="background-image: url(assets/images/news/school.jpg);"></div>
+                    <h3 class="cards__title">Открытие новых кабинетов</h3>
+                </a>
+            </div>
+            <a href="news.html" class="btn">Показать все новости</a>
+        </section>
+
+        <section class="feedback" id="feedback">
+            <h2 class="section-title">Задать вопрос</h2>
+            <form action="/" class="feedback__form">
+                <input placeholder="Имя" type="text" name="userName" >
+                <input placeholder="Ваш вопрос" type="text" name="question" >
+                <button type="submit">Отправить форму</button>
+            </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer__title">SCHOOL.RU</h2>
+        
+        <div class="footer__socials">
+          <a href="#" class="footer__social">
+            <img src="assets/images/icons/Instagram_perspective_matte.png" alt="social" >
+          </a>
+          <a href="#" class="footer__social">
+            <img src="assets/images/icons/Facebook_perspective_matte.png" alt="social" >
+          </a>
+          <a href="#" class="footer__social">
+            <img src="assets/images/icons/Twitter_perspective_matte.png" alt="social" >
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
